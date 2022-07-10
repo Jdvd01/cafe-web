@@ -1,3 +1,78 @@
 /* 
     General Styles
 */
+body{
+    background: url("https://img.freepik.com/foto-gratis/vista-cercana-granos-cafe-tostados-frescos-oscuros-sobre-fondo-granos-cafe_141793-27283.jpg?w=2000");
+    background-size: 100%;
+}
+.navbar{
+    background-color: black;
+    position: sticky;
+    top: 1em;
+    margin: auto;
+    border-radius: 4em;
+    padding: 1em 2em;
+    color: #8d4925;
+    
+    /* animacion para que el navbar aparezca desde arriba */
+    animation: appear 2s forwards; 
+}
+@keyframes appear{
+    from {
+        top: 0;
+        opacity: 0;
+    }
+    to {
+        top: 1em;
+        opacity: 1;
+    }
+}
+.navbar i{
+    color: #8d4925;
+}
+.navbar-toggler{
+    font-size: 2rem;
+}
+.logo{
+    width: 4em;
+}
+.fa-bars{
+    color: white;
+}
+.navbar a:visited{
+    color: #e6966e;
+    text-decoration: none;
+}
+.navbar a:hover, a:active{
+    color: #8d4925;
+}
+.menu{
+    margin-top: 5em;
+    padding: 2em;
+    background-color: #ECECEC;
+    border-radius: 40px;
+}
+.menu-cafe{
+    display: flex;
+    justify-content: center;
+    padding: 2em 0em;
+}
+.card{
+    width: 15em;
+    border-radius: 40px;
+    padding-top: 0.5em;
+    margin: 0.5em;
+    position: static;
+}
+.card img{
+    border-radius: 40px;
+}
+.footer{
+    margin-top: 2em;
+    padding: 1em 0;
+    color: white;
+    border-radius: 40px 40px 0px 0px;
+}
+.footer p{
+    margin: 0;
+}
